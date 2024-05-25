@@ -7,5 +7,6 @@ import "@aws-amplify/ui-react/styles.css";
 Amplify.configure(outputs);
 
 export default function App({ Component, pageProps }: AppProps) {
+  
   return <Component {...pageProps} />;
 }
