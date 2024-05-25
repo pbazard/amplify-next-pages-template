@@ -13,6 +13,7 @@ const schema = a.schema({
       content: a.string(),
     })
     .authorization((allow) => [allow.owner()]),
+    
   Recording: a
     .model({
       name: a.string(),
